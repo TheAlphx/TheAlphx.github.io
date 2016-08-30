@@ -1,0 +1,90 @@
+@font-face{
+font-family:code;
+src:url(../font/codelight.otf);
+}
+
+
+html{
+max-width:100%;
+max-height:100%;
+margin:0%;
+}
+
+body{
+min-width:10%;
+min-height:10%;
+max-height:100%;
+max-width:100%;
+height:auto;
+background-color:black;
+background-image: url(../pics/logo.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+}
+
+h1{
+width:100%;
+position:relative;
+left:39vw;
+top:1vw;
+opacity:0.9;
+font-size:3vw;
+color:white;
+font-family:code;
+letter-spacing:1vw;
+text-shadow: 0px 5px 10px #f2f2f2;
+}
+
+h1 a{
+text-decoration:none;
+color:white;
+}
+
+h1 a:hover{
+opacity:1;
+}
+
+ul{
+float:left;
+position:relative;
+font-family: code;
+color:white
+text-shadow: 0px 5px 10px #f2f2f2;
+font-size:1.5vw;
+display:inline;
+bottom:3vw;
+right:10vw;
+text-decoration:none;
+list-style-type:none;
+}
+
+li{
+float:left;
+display:inline;
+padding:2vw;
+}
+
+li a{
+text-decoration:none;
+color:white;
+}
+
+
+footer{
+z-index:10;
+margin:0%;
+max-width:100%;
+height:auto;
+position:relative;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+ms-user-select:none;
+}
+
+footer img{
+position:fixed;
+width:10vw;
+left:90%;
+top:84%
+}
